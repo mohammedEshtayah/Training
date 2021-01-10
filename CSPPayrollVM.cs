@@ -12,7 +12,7 @@ namespace PEGASE.Domain.ViewModels
         public long EmpNo { get; set; } 
         public string FirstNameAr { get; set; } 
         public string FatherNameAr { get; set; } 
-        public string GranFatherNameAr { get; set; } 
+        public string GranFatherNameAr { set; } 
         
     }
 }
